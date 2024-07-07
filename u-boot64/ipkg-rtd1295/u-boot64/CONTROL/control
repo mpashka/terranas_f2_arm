@@ -1,0 +1,8 @@
+Package: u-boot64
+Version: 3655658-1
+Depends: libc, librt, libpthread
+Source: realtek/realtek/u-boot64
+Section: boot
+Architecture: rtd1295
+Installed-Size: 17023
+Description:  Das U-Boot -- the Universal Boot Loader

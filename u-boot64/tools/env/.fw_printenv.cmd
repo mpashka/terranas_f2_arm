@@ -1,0 +1,1 @@
+cmd_tools/env/fw_printenv := aarch64-openwrt-linux-gnu-gcc  -o tools/env/fw_printenv tools/env/fw_env.o tools/env/fw_env_main.o tools/env/crc32.o tools/env/ctype.o tools/env/linux_string.o tools/env/env_attr.o tools/env/env_flags.o tools/env/aes.o  

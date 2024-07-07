@@ -1,0 +1,1 @@
+cmd_examples/standalone/hello_world := aarch64-openwrt-linux-gnu-ld.bfd   -g -Ttext 0xc100000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /work/rtk/sery/NVR_18/staging_dir/toolchain-aarch64_cortex-a53+neon_gcc-4.9-linaro_glibc-2.19/lib/gcc/aarch64-openwrt-linux-gnu/4.9.4 -lgcc
